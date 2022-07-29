@@ -48,6 +48,8 @@ ann.add(tf.keras.layers.Dense(1,activation='sigmoid'))
 # Compiling ANN
 ann.compile(optimizer='adam',loss='binary_crossentropy',metrics=['accuracy'])
 
+# This optimizer compelled me to install all tensorflow again - SO careful
+
 #ann.summary()
 
 print("********  Shape of X_train : ",X_train_scaled.shape)
